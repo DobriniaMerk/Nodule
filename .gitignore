@@ -1,0 +1,6 @@
+scanner_modules/
+grabber_modules/
+generator_modules/
+**/__pycache__/
+.idea/
+venv/
