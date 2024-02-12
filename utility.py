@@ -21,7 +21,7 @@ class ModuleManager:
                 to, out_pin, in_pin = n
                 to.give((stamp, result[out_pin]), in_pin)
         else:
-            print(f"Error occurred in {self.module.name}: {result[0]}")
+            print(f"Error occurred in {self.module}: {result[0]}")
             self.log.append(result)
 
     def generate(self, stamp):

@@ -1,6 +1,4 @@
-import os, sys
 import random
-# sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import Modules
 
 
@@ -34,7 +32,7 @@ class Print(Modules.ModuleBase):
     blueprint = [
         "test_Print",
         [],
-        [("int", "Input")],
+        [("any", "Input")],
         []
     ]
 
